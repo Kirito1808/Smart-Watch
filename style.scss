@@ -1,0 +1,117 @@
+@mixin kerakli() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+    aside{
+        width: 7%;
+        flex-direction: column;
+        @include kerakli-2();
+        align-items: center;
+        padding: 40px 0;
+
+        .social{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+        }
+    }
+
+    main {
+        background: linear-gradient(294.28deg, #C8DCE6 0%, #B6CCDA 100%);
+        border-radius: 15px 0px 0px 15px;
+        width: 93%;
+        padding: 30px 60px;
+        @include kerakli-2();
+        flex-direction: column;
+
+        header  {
+            @include kerakli-2();
+            width: 100%;
+            align-items: center;
+        
+            nav {
+                margin-right: 150px;
+                text-decoration: none;
+                @include dispalig();
+                gap: 80px;
+            }
+
+            nav a{
+                font-family: 'Poppins', sans-serif;
+                text-decoration: none;
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 27px;
+                color: #FFFFFF;
+            }
+
+            .searchAndCart img:first-child{
+                padding-right: 20px;
+                border-right: 1px solid #fff;
+            }
+
+            .searchAndCart img:last-child{
+                padding-left: 20px;
+            }
+        }
+
+        .center{
+            @include dispalig();
+            width: 100%;
+
+            .info-buy p{
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 64px;
+                line-height: 86px;
+                letter-spacing: 0.02em;
+                color: #FFFFFF;
+            }
+            .buy{
+                margin-top: 60px;
+                font-family: Poppins;
+                font-size: 25px;
+                color: #fff;
+                padding: 10px 40px;
+                border-radius: 30px;
+                background-color: transparent;
+                border: 1px solid #fff;
+            }
+
+            .process-dots{
+                margin-left: 500px;
+                @include dispalig();
+                flex-direction: column;
+                gap: 5px;
+            }
+
+            footer{
+              
+                .all-watch {
+                    @include dispalig();
+                    justify-content: center;
+                    gap: 70px;
+                    margin-left: 200px;
+            }
+        }
+    }
+}
+

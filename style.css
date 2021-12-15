@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+body aside {
+  width: 7%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 40px 0;
+}
+
+body aside .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main {
+  background: linear-gradient(294.28deg, #C8DCE6 0%, #B6CCDA 100%);
+  border-radius: 15px 0px 0px 15px;
+  width: 93%;
+  padding: 30px 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body main header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main header nav {
+  margin-right: 150px;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 80px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main header nav a {
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #FFFFFF;
+}
+
+body main header .searchAndCart img:first-child {
+  padding-right: 20px;
+  border-right: 1px solid #fff;
+}
+
+body main header .searchAndCart img:last-child {
+  padding-left: 20px;
+}
+
+body main .center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .center .info-buy p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 86px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+
+body main .center .buy {
+  margin-top: 60px;
+  font-family: Poppins;
+  font-size: 25px;
+  color: #fff;
+  padding: 10px 40px;
+  border-radius: 30px;
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+
+body main .center .process-dots {
+  margin-left: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+}
+
+body main .center footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body main .center footer .control {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .center footer .control p {
+  color: #fff;
+}
+
+body main .center footer .products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .center footer .products div {
+  width: 130px;
+  height: 70px;
+  border-radius: 15px;
+  position: relative;
+}
+
+body main .center footer .products div img {
+  position: absolute;
+  top: -30px;
+  left: 20px;
+}
+/*# sourceMappingURL=style.css.map */
